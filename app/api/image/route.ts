@@ -32,7 +32,7 @@ export async function POST(req:Request) {
         }
 
         if(!prompt){
-            return new NextResponse("Promt is required", {status:400});
+            return new NextResponse("Prompt is required", {status:400});
         }
         if(!amount){
             return new NextResponse("Amount is required", {status:400});
